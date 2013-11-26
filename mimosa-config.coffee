@@ -36,7 +36,6 @@ exports.config =
     optimize:
       overrides:
         name: '../vendor/almond-custom'
-        baseUrl: ''
         inlineText: true
         stubModules: ['text']
         pragmas:

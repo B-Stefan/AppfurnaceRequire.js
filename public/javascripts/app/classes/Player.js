@@ -1,1 +1,0 @@
-define(["require","parse"],function(require,e){return e.Object.extend("Player",{initialize:function(){return this.set("firstName","John"),this.set("lastName","Dow")},getFullName:function(){return this.get("firstName")+" "+this.get("lastName")}},{login:function(){}})});

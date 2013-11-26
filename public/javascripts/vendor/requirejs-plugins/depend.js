@@ -1,1 +1,1 @@
-define(function(){var e=/^(.*)\[([^\]]*)\]$/;return{load:function(t,n,i){var r=e.exec(t);n(r[2].split(","),function(){n([r[1]],function(e){i(e)})})}}});
+define(function(){var e=/^(.*)\[([^\]]*)\]$/;return{load:function(t,n,r){var i=e.exec(t);n(i[2].split(","),function(){n([i[1]],function(e){r(e)})})}}});
