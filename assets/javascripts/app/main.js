@@ -14,7 +14,7 @@ requirejs.config({
           exports: "Parse",
           init: function(){
               //Get your Application ID and JavaScript key from https://parse.com/apps/quickstart
-              Parse.initialize("vIHwlKIJUX1pzQZKlPcstRhEbazv8uHNl3mwdqyz", "jN3LZyWX5nQogcFNh8w0oWYGFpnHfzCsqFQMQUoU");
+              Parse.initialize("YOURCODE", "YOURCODE");
           }
       }
     }
