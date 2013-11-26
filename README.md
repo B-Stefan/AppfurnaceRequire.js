@@ -76,3 +76,5 @@ This repository contains a working application for develop large application wit
  See the [Mimosa](http://m
 imosajs.com/) project for details on how to customize the solution and use other features.
 
+##Known issues
+ * `LOCAL BUILD Configuration` dont work, because the `baseUrl` in the main.js is wrong.
