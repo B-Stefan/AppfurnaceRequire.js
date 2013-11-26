@@ -42,7 +42,7 @@ This repository contains a working application for develop large application wit
 
     start = function (){
         //Load main file
-        require(['http://localhost:3000/javascripts/app/main-built.js'],function(app) {
+        require(['http://localhost:3000/javascripts/app/main.js'],function(app) {
             return app;
         });
     };
@@ -60,7 +60,7 @@ This repository contains a working application for develop large application wit
 
         start = function (){
             //Load main file
-            require(['javascripts/app/main-built.js'],function(app) {
+            require(['javascripts/app/main.js'],function(app) {
                 return app;
             });
         };
@@ -70,7 +70,7 @@ This repository contains a working application for develop large application wit
 ```
 
 #Build your application
- 1. Use `make build-opt` to create your optimized application. The deployable source will be output to 'public/app/main-built.js' folder.
+ 1. Use `make build-opt` to create your optimized application. The deployable source will be output to 'public/app/main.js' folder.
  2. Upload your public/app/main-built.js and maybe some other Data
  3. Change your configuration
  See the [Mimosa](http://m

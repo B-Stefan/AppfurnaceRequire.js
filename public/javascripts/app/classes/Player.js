@@ -1,13 +1,1 @@
- define(['require', 'parse'], function(require, Parse) {
-  return Parse.Object.extend("Player", {
-    initialize: function(attrs, options) {
-      this.set("firstName", "John");
-      return this.set("lastName", "Dow");
-    },
-    getFullName: function() {
-      return this.get("firstName") + " " + this.get("lastName");
-    }
-  }, {
-    login: function(player) {}
-  });
-});
+define(["require","parse"],function(require,e){return e.Object.extend("Player",{initialize:function(){return this.set("firstName","John"),this.set("lastName","Dow")},getFullName:function(){return this.get("firstName")+" "+this.get("lastName")}},{login:function(){}})});
