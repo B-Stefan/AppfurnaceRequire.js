@@ -1,4 +1,4 @@
-Appfurance RequireJs Starter Kit
+Appfurnace RequireJs Starter Kit
 ========================
 
 This repository contains a working application for develop large application with Appfurance.
@@ -73,6 +73,6 @@ This repository contains a working application for develop large application wit
  1. Use `make build-opt` to create your optimized application. The deployable source will be output to 'public/app/main-built.js' folder.
  2. Upload your public/app/main-built.js and maybe some other Data
  3. Change your configuration
-
- See the [Mimosa](http://mimosajs.com/) project for details on how to customize the solution and use other features.
+ See the [Mimosa](http://m
+imosajs.com/) project for details on how to customize the solution and use other features.
 
