@@ -70,7 +70,7 @@ This repository contains a working application for develop large application wit
 ```
 
 #Build your application
- 1. Use `make build-pack` to create your optimized application. The deployable source will be output to 'public/app/main-built.js' folder.
+ 1. Use `make pack` to create your optimized application. The deployable source will be output to 'public/app/main-built.js' folder.
  2. Upload your public/app/main-built.js and maybe some other Data
  3. Change your configuration
  See the [Mimosa](http://m
