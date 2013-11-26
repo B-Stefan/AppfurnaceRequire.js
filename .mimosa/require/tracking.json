@@ -1,0 +1,45 @@
+{
+  "shims": {
+    "/javascripts/app/main.js": {
+      "parse": {
+        "exports": "Parse"
+      }
+    }
+  },
+  "deps": {
+    "/javascripts/app/classes/Player.js": [
+      "require",
+      "parse"
+    ],
+    "/javascripts/app/main.js": [
+      "require",
+      "classes/Player"
+    ]
+  },
+  "aliases": {
+    "/javascripts/app/main.js": {
+      "text": "../vendor/requirejs-text/text",
+      "parse": "../vendor/parse/parse-1.2.12"
+    }
+  },
+  "mappings": {
+    "/javascripts/app/main.js": null
+  },
+  "packages": {
+    "/javascripts/app/main.js": null
+  },
+  "originalConfig": {
+    "shim": {
+      "parse": {
+        "exports": "Parse"
+      }
+    },
+    "paths": {
+      "text": "../vendor/requirejs-text/text",
+      "parse": "../vendor/parse/parse-1.2.12"
+    }
+  },
+  "requireFiles": [
+    "/javascripts/app/main.js"
+  ]
+}

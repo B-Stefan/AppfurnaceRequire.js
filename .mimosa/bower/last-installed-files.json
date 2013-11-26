@@ -1,0 +1,14 @@
+[
+  "assets\\javascripts\\vendor\\jquery\\jquery.js",
+  "assets\\javascripts\\vendor\\requirejs-plugins\\font.js",
+  "assets\\javascripts\\vendor\\requirejs-plugins\\goog.js",
+  "assets\\javascripts\\vendor\\requirejs-plugins\\json.js",
+  "assets\\javascripts\\vendor\\requirejs-plugins\\text.js",
+  "assets\\javascripts\\vendor\\requirejs-plugins\\async.js",
+  "assets\\javascripts\\vendor\\requirejs-plugins\\image.js",
+  "assets\\javascripts\\vendor\\requirejs-plugins\\mdown.js",
+  "assets\\javascripts\\vendor\\requirejs-plugins\\noext.js",
+  "assets\\javascripts\\vendor\\requirejs-plugins\\depend.js",
+  "assets\\javascripts\\vendor\\requirejs-plugins\\propertyParser.js",
+  "assets\\javascripts\\vendor\\requirejs-plugins\\Markdown.Converter.js"
+]
