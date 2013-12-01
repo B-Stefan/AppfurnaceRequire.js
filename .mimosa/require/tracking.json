@@ -3,6 +3,9 @@
     "/javascripts/app/main.js": {
       "parse": {
         "exports": "Parse"
+      },
+      "pusher": {
+        "exports": "Pusher"
       }
     }
   },
@@ -11,15 +14,27 @@
       "require",
       "parse"
     ],
+    "/javascripts/app/classes/RealTimeCommunication.js": [
+      "require",
+      "pusher"
+    ],
+    "/javascripts/app/classes/RealTimeCommunicationChannel.js": [
+      "require",
+      "pusher",
+      "jquery"
+    ],
     "/javascripts/app/main.js": [
       "require",
-      "classes/Player"
+      "classes/Player",
+      "classes/RealTimeCommunicationChannel"
     ]
   },
   "aliases": {
     "/javascripts/app/main.js": {
       "text": "../vendor/requirejs-text/text",
-      "parse": "../vendor/parse/parse-1.2.12"
+      "jquery": "../vendor/jquery/jquery",
+      "parse": "../vendor/parse/parse-1.2.12",
+      "pusher": "../vendor/pusher/2.1-pusher.min"
     }
   },
   "mappings": {
@@ -32,11 +47,17 @@
     "shim": {
       "parse": {
         "exports": "Parse"
+      },
+      "pusher": {
+        "exports": "Pusher"
       }
     },
     "paths": {
       "text": "../vendor/requirejs-text/text",
-      "parse": "../vendor/parse/parse-1.2.12"
+      "parse": "../vendor/parse/parse-1.2.12",
+      "pusher": "../vendor/pusher/2.1-pusher.min",
+      "pusherLib": "../vendor/pusher/2.1-pusher.min",
+      "jquery": "../vendor/jquery/jquery"
     }
   },
   "requireFiles": [
