@@ -9,7 +9,10 @@ requirejs.config({
         'text': '../vendor/requirejs-text/text',
         'jquery':'../vendor/jquery/jquery',
         'parse': '../vendor/parse/parse-1.2.12',
-        'pusher': '../vendor/pusher/2.1-pusher.min'
+        'pusher': '../vendor/pusher/2.1-pusher.min',
+        'css': '../vendor/require-css/css',
+        'css-builder': '../vendor/require-css/css-builder',
+        'normalize': '../vendor/require-css/normalize'
     },
     shim: {
       'parse': {
